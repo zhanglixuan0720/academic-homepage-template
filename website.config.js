@@ -1,25 +1,25 @@
 export const personalInfo = {
-  name: 'Hiroshi Ishii',
+  name: 'Lixuan Zhang',
   profilePicture: '/profile.jpg', //optional
-  role: 'Professor',
-  university: 'MIT Media Lab',
-  universityWebsite: 'https://www.zju.edu.cn/',
+  role: 'Ph.D. Student',
+  university: 'UCAS/ICT IIP Lab VIPL Group',
+  universityWebsite: 'https://vipl.ict.ac.cn/',
   socialMedia: [
-    { name: 'Email', url: 'https://linkedin.com' },
-    { name: 'Twitter', url: 'https://twitter.com/anxndsgn' },
+    { name: 'Email', url: 'lixuan.zhang@vipl.ict.ac.cn' },
+    // { name: 'Twitter', url: 'https://twitter.com/anxndsgn' },
     {
       name: 'GitHub',
-      url: 'https://github.com/anxndsgn/academic-homepage-template',
+      url: 'https://github.com/zhanglixuan0720',
     },
-    { name: 'LinkedIn', url: 'https://linkedin.com' },
-    { name: 'ORCID', url: 'https://orcid' },
-    { name: 'Google Scholar', url: 'https://scholar.google.com' },
+    // { name: 'LinkedIn', url: 'https://linkedin.com' },
+    { name: 'ORCID', url: 'https://orcid.org/0009-0008-9230-9879' },
+    { name: 'Google Scholar', url: 'https://scholar.google.com/citations?hl=en&user=btKkMTMAAAAJ' },
   ],
 };
 
 export const websiteInfo = {
   title: personalInfo.name,
-  description: 'HCI researcher',
+  description: 'Vision & Robotics researcher',
   // teaserImage: "/teaser.jpg",
 };
 
@@ -28,7 +28,7 @@ export const navigations = [
   { name: 'Publications', route: '/publications' },
   // { name: "News", route: "/news" },
   // { name: 'About', route: '/about' },
-  { name: 'CV', route: '/cv.pdf' },
+  // { name: 'CV', route: '/cv.pdf' },
 ];
 
 export const homepageSection = {
